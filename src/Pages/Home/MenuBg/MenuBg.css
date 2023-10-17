@@ -1,0 +1,6 @@
+.images {
+    background-image: url("./../../../assets/home/featured.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
