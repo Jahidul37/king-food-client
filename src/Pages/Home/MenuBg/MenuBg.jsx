@@ -19,9 +19,9 @@ const MenuBg = () => {
 
                 <div className=' grid sm:grid-cols-1 lg:grid-cols-2 gap-4 lg:mx-24 p-10 items-center z-10 '>
                     <div>
-                        <img className=' lg:w-[400px] lg:h-[300px] sm:h-auto' src={images} alt="" />
+                        <img className=' w-[400px] h-[300px]' src={images} alt="" />
                     </div>
-                    <div className=''>
+                    <div className=' text-white'>
                         <p>March 20, 2023</p>
                         <h4>WHERE CAN I GET SOME?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore error expedita tenetur, esse ipsum, aperiam aliquam porro,
