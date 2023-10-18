@@ -2,8 +2,7 @@ import React from 'react';
 import SectionTitles from '../../../Componets/SectionTitles/SectionTitles';
 import "./MenuBg.css"
 import images from "./../../../assets/home/featured.jpg"
-import { Parallax, Background } from 'react-parallax';
-
+// import { Parallax, Background } from 'react-parallax';
 
 const MenuBg = () => {
     return (
@@ -21,7 +20,7 @@ const MenuBg = () => {
                     <div>
                         <img className=' w-[400px] h-[300px]' src={images} alt="" />
                     </div>
-                    <div className=' text-white'>
+                    <div className=' text-white text-justify'>
                         <p>March 20, 2023</p>
                         <h4>WHERE CAN I GET SOME?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore error expedita tenetur, esse ipsum, aperiam aliquam porro,

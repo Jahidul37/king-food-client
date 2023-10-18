@@ -6,10 +6,14 @@ import CallUs from '../CallUs/CallUs';
 import CeafRecomnd from '../CeafRecomnd/CeafRecomnd';
 import MenuBg from '../MenuBg/MenuBg';
 import Testimonials from '../Testimonials/Testimonials';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title> King Food | Home</title>
+            </Helmet>
             <Banner></Banner>
             <Order></Order>
             <OurMenu></OurMenu>

@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 const NavHeader = () => {
 
     const navItems = <>
-        <Link to="/"><li>Home</li></Link>
+        <Link to="/"><li className='m-2'>Home</li></Link>
+        <Link to="/menu"><li className='m-2'>Our Menu</li></Link>
     </>
 
     return (
